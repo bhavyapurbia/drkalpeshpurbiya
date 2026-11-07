@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Photo Gallery & Awards | Dr. Kalpesh Purbiya Udaipur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="View photo gallery of Dr. Kalpesh Purbiya's Spine & Sports Physiotherapy Center in Udaipur. Highlights of state awards, community health camps, and clinical care.">
+    <meta name="keywords" content="Dr Kalpesh Purbiya Gallery, Physiotherapy Clinic Photos Udaipur, Spine Center Udaipur Images, Awards Dr Kalpesh Purbia">
+    <meta name="author" content="Dr. Kalpesh Purbiya">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Modern Healthcare & Mobile-First Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .filter-btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 28px;
+        }
+
+        .filter-btn {
+            background: #FFFFFF;
+            border: 1.5px solid var(--border-color);
+            color: var(--dark);
+            padding: 8px 18px;
+            border-radius: var(--radius-pill);
+            font-size: 13.5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--primary-light);
+            border-color: var(--primary-light);
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Loading Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!-- Loading Spinner End -->
+
+    <!-- ==========================================
+         DESKTOP TOPBAR (Screen >= 992px)
+    =========================================== -->
+    <div class="topbar-section d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="d-flex align-items-center flex-wrap">
+                        <a href="tel:+919414308289"><i class="fas fa-phone-alt text-info"></i> +91 9414308289</a>
+                        <a href="tel:+918005758037"><i class="fas fa-phone-alt text-info"></i> +91 8005758037</a>
+                        <a href="mailto:kalpesh_purbiya2007@yahoo.co.in"><i class="fas fa-envelope text-info"></i> kalpesh_purbiya2007@yahoo.co.in</a>
+                        <span><i class="fas fa-map-marker-alt text-info me-1"></i> Navratan Flora, Udaipur</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <div class="social-links d-inline-flex align-items-center">
+                        <a href="https://wa.me/919414308289" target="_blank" title="WhatsApp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/kalpeshpurbiya?igsh=MWJkdjM0YjJwdHlsYw==" target="_blank" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1CfwQZfoqc/?mibextid=wwXIfr" target="_blank" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         DESKTOP NAVBAR (Screen >= 992px)
+    =========================================== -->
+    <header class="desktop-navbar d-none d-lg-block">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="index.html" class="clinic-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-title">Dr. Kalpesh Purbiya</span>
+                        <span class="brand-subtitle">Spine & Sports Injuries Physiotherapy Center</span>
+                    </div>
+                </a>
+
+                <nav>
+                    <ul class="desktop-nav-menu">
+                        <li><a href="index.html" class="desktop-nav-link"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="about.html" class="desktop-nav-link"><i class="fas fa-user-md"></i> About Doctor</a></li>
+                        <li><a href="service.html" class="desktop-nav-link"><i class="fas fa-hand-holding-medical"></i> Services</a></li>
+                        <li><a href="gallery.html" class="desktop-nav-link active"><i class="fas fa-images"></i> Gallery</a></li>
+                        <li><a href="contact.html" class="desktop-nav-link"><i class="fas fa-phone-alt"></i> Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="d-flex align-items-center gap-3">
+                    <a href="tel:+919414308289" class="btn-outline-clinic py-2 px-3">
+                        <i class="fas fa-phone-alt"></i> Call Now
+                    </a>
+                    <a href="appointment.html" class="btn-primary-clinic py-2 px-4">
+                        <i class="fas fa-calendar-check"></i> Book Appointment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================================================
+         MOBILE SLIDING DRAWER MENU (Right to Left Animation)
+    ========================================================================== -->
+    <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+
+    <aside class="mobile-drawer d-lg-none" id="mobileDrawer" aria-label="Mobile Navigation Drawer">
+        <!-- Drawer Header with Doctor Branding -->
+        <div class="mobile-drawer-header">
+            <div class="d-flex align-items-center gap-2">
+                <div class="drawer-brand-avatar">
+                    <img src="img/drkp.jpeg" alt="Dr. Kalpesh Purbiya" class="w-100 h-100 rounded-circle" style="object-fit: cover; object-position: center 20%;">
+                    <span class="drawer-online-dot"></span>
+                </div>
+                <div class="drawer-brand-info">
+                    <div class="drawer-doctor-name">Dr. Kalpesh Purbiya</div>
+                    <div class="drawer-clinic-sub">Spine & Sports Physio Clinic</div>
+                </div>
+            </div>
+            <button type="button" class="drawer-close-btn" id="mobileDrawerClose" aria-label="Close Navigation Menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <!-- Drawer Navigation Links -->
+        <div class="mobile-drawer-body">
+            <ul class="drawer-nav-list">
+                <li>
+                    <a href="index.html" class="drawer-nav-link" data-nav="home">
+                        <span class="drawer-nav-icon"><i class="fas fa-home"></i></span>
+                        <span class="drawer-nav-text">Home</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" class="drawer-nav-link" data-nav="about">
+                        <span class="drawer-nav-icon"><i class="fas fa-user-md"></i></span>
+                        <span class="drawer-nav-text">About Doctor</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="service.html" class="drawer-nav-link" data-nav="services">
+                        <span class="drawer-nav-icon"><i class="fas fa-stethoscope"></i></span>
+                        <span class="drawer-nav-text">Services & Treatments</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="team.html" class="drawer-nav-link" data-nav="team">
+                        <span class="drawer-nav-icon"><i class="fas fa-users"></i></span>
+                        <span class="drawer-nav-text">Our Clinical Team</span>
+                        <span class="badge bg-primary text-white rounded-pill px-2 py-1 ms-auto me-2" style="font-size: 10px;">4 Doctors</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="drawer-nav-link" data-nav="gallery">
+                        <span class="drawer-nav-icon"><i class="fas fa-images"></i></span>
+                        <span class="drawer-nav-text">Photo Gallery</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html#testimonials" class="drawer-nav-link" data-nav="testimonials">
+                        <span class="drawer-nav-icon"><i class="fas fa-comment-medical"></i></span>
+                        <span class="drawer-nav-text">Patient Testimonials</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="appointment.html" class="drawer-nav-link drawer-nav-highlight" data-nav="appointment">
+                        <span class="drawer-nav-icon text-white" style="background: var(--accent);"><i class="fas fa-calendar-check"></i></span>
+                        <span class="drawer-nav-text font-weight-bold">Book Appointment</span>
+                        <span class="badge bg-success text-white rounded-pill px-2 py-1 ms-auto me-2" style="font-size: 10px;">Instant</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="drawer-nav-link" data-nav="contact">
+                        <span class="drawer-nav-icon"><i class="fas fa-map-marked-alt"></i></span>
+                        <span class="drawer-nav-text">Contact Us</span>
+                        <i class="fas fa-chevron-right drawer-arrow"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Quick Drawer Contact Strip -->
+            <div class="drawer-contact-card">
+                <div class="drawer-contact-title">
+                    <i class="fas fa-clock text-info me-1"></i> Clinic Timings & Connect
+                </div>
+                <div class="drawer-timing-pill">
+                    <span>Mon - Sat: 9:00 AM - 1:00 PM & 4:30 PM - 8:30 PM</span>
+                </div>
+                <div class="drawer-quick-actions">
+                    <a href="tel:+919414308289" class="btn-drawer-action call">
+                        <i class="fas fa-phone-alt"></i> Call +91 9414308289
+                    </a>
+                    <a href="https://wa.me/919414308289?text=Hello%20Dr.%20Kalpesh,%20I%20want%20to%20consult%20regarding%20physiotherapy." target="_blank" class="btn-drawer-action wa">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                    <a href="https://maps.app.goo.gl/9z3P6wS8K3CqF2xZ6" target="_blank" class="btn-drawer-action map">
+                        <i class="fas fa-map-marker-alt"></i> Navratan Flora, Udaipur
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+    <!-- ==========================================
+         MOBILE HEADER (Screen < 992px - Clean, No Hamburger)
+    =========================================== -->
+        <!-- ===========================================
+        MOBILE TOPBAR STRIP (Screen < 992px - 100% Feature Parity with Laptop)
+    =========================================== -->
+    <div class="mobile-top-strip d-lg-none">
+        <div class="d-flex align-items-center gap-1 overflow-hidden text-truncate">
+            <span class="strip-badge"><i class="fas fa-map-marker-alt"></i> Udaipur</span>
+            <a href="tel:+919414308289" class="text-truncate"><i class="fas fa-phone-alt text-info"></i> +91 9414308289</a>
+        </div>
+        <div class="strip-actions">
+            <a href="tel:+918005758037" title="Secondary Line"><i class="fas fa-phone-volume text-warning"></i></a>
+            <a href="mailto:kalpesh_purbiya2007@yahoo.co.in" title="Email Clinic"><i class="fas fa-envelope text-info"></i></a>
+            <a href="https://www.instagram.com/kalpeshpurbiya?igsh=MWJkdjM0YjJwdHlsYw==" target="_blank" class="strip-social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/919414308289" target="_blank" class="strip-social-link text-success" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+
+<header class="mobile-header d-lg-none">
+        <a href="index.html" class="mobile-brand">
+            <div class="mobile-brand-icon">
+                <i class="fas fa-heartbeat"></i>
+            </div>
+            <div>
+                <h1 class="mobile-brand-title">Dr. Kalpesh Purbiya</h1>
+                <div class="mobile-brand-sub">Spine & Sports Physio Clinic</div>
+            </div>
+        </a>
+
+                        <div class="mobile-header-actions">
+            <!-- Google Maps Location Button -->
+            <a href="https://maps.app.goo.gl/9z3P6wS8K3CqF2xZ6" target="_blank" rel="noopener noreferrer" class="btn-location-mobile" title="Clinic Google Maps Location" aria-label="Clinic Google Maps Location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Location</span>
+            </a>
+            <a href="tel:+919414308289" class="mobile-action-btn btn-call-mobile" title="Call Clinic" aria-label="Call Clinic">
+                <i class="fas fa-phone-alt"></i>
+            </a>
+            <a href="appointment.html" class="btn-book-mobile" title="Book Appointment" aria-label="Book Appointment">
+                <i class="far fa-calendar-check me-1"></i> Book
+            </a>
+            <button type="button" class="btn-mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open Mobile Menu" title="Open Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         INNER PAGE BANNER
+    =========================================== -->
+    <section class="inner-page-banner">
+        <div class="container">
+            <h1>Clinic & Achievements Gallery</h1>
+            <p>Explore awards, community health camps, patient care, and milestones since 2007.</p>
+            <ul class="inner-breadcrumb">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li>/</li>
+                <li>Gallery</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         GALLERY GRID & LIGHTBOX
+    =========================================== -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visual Showcase</span>
+                <h2 class="section-main-title">Moments of Healing & Recognition</h2>
+                <p class="section-subtitle">Tap any photo to open full-screen preview. No horizontal scroll, responsive on every smartphone screen.</p>
+            </div>
+
+            <!-- Category Filter Buttons -->
+            <div class="filter-btn-group">
+                <button type="button" class="filter-btn active" data-filter="all">All Photos</button>
+                <button type="button" class="filter-btn" data-filter="awards">Awards & Honors</button>
+                <button type="button" class="filter-btn" data-filter="camps">Free Health Camps</button>
+                <button type="button" class="filter-btn" data-filter="clinic">Clinic & Treatments</button>
+            </div>
+
+            <!-- Responsive Gallery Grid -->
+            <div class="gallery-grid" id="mainGalleryGrid">
+                <!-- 1 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (1).jpeg">
+                    <img src="img/gallery (1).jpeg" alt="State Award Recognition" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (2).jpeg">
+                    <img src="img/gallery (2).jpeg" alt="Felicitation Ceremony" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (3).jpeg">
+                    <img src="img/gallery (3).jpeg" alt="Health Care Award 2015" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="gallery-card" data-category="camps" data-lightbox-src="img/gallery (4).jpeg">
+                    <img src="img/gallery (4).jpeg" alt="Community Health Initiative" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (5).jpeg">
+                    <img src="img/gallery (5).jpeg" alt="Honor from Chief Guests" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="gallery-card" data-category="clinic" data-lightbox-src="img/gallery (6).jpeg">
+                    <img src="img/gallery (6).jpeg" alt="Patient Assessment Camp" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="gallery-card" data-category="camps" data-lightbox-src="img/gallery (7).jpeg">
+                    <img src="img/gallery (7).jpeg" alt="Free Spine Therapy Camp Udaipur" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (8).jpeg">
+                    <img src="img/gallery (8).jpeg" alt="State Level Award Ceremony 2015" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="gallery-card" data-category="camps" data-lightbox-src="img/gallery (9).jpeg">
+                    <img src="img/gallery (9).jpeg" alt="Physiotherapy Camp Outreach" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="gallery-card" data-category="clinic" data-lightbox-src="img/gallery (10).jpeg">
+                    <img src="img/gallery (10).jpeg" alt="Clinic Consultation" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 11 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (11).jpeg">
+                    <img src="img/gallery (11).jpeg" alt="Trophy & Memento Presentation" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 12 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (12).jpeg">
+                    <img src="img/gallery (12).jpeg" alt="Dignitary Honor" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 13 -->
+                <div class="gallery-card" data-category="camps" data-lightbox-src="img/gallery (13).jpeg">
+                    <img src="img/gallery (13).jpeg" alt="Public Health Awareness Session" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 14 -->
+                <div class="gallery-card" data-category="clinic" data-lightbox-src="img/gallery (14).jpeg">
+                    <img src="img/gallery (14).jpeg" alt="Spine Examination" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 15 -->
+                <div class="gallery-card" data-category="camps" data-lightbox-src="img/gallery (15).jpeg">
+                    <img src="img/gallery (15).jpeg" alt="Camp Patient Rehabilitation" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 16 -->
+                <div class="gallery-card" data-category="awards" data-lightbox-src="img/gallery (16).jpeg">
+                    <img src="img/gallery (16).jpeg" alt="Award Stage Moment" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+
+                <!-- 17 -->
+                <div class="gallery-card" data-category="clinic" data-lightbox-src="img/gallery (17).jpeg">
+                    <img src="img/gallery (17).jpeg" alt="Clinical Excellence in Physiotherapy" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-overlay-icon"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CTA CONSULTATION BANNER
+    =========================================== -->
+    <section class="py-5" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%); color: #FFFFFF;">
+        <div class="container text-center">
+            <h2 class="h1 text-white mb-3">Experience World-Class Physiotherapy in Udaipur</h2>
+            <p class="text-white-50 mb-4 mx-auto" style="max-width: 650px;">
+                Join over 5,000 satisfied patients who have regained their pain-free life under Dr. Kalpesh Purbiya's care.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="appointment.html" class="btn btn-light rounded-pill px-4 py-3 fw-bold text-primary shadow">
+                    <i class="fas fa-calendar-check me-2"></i> Book Appointment Now
+                </a>
+                <a href="tel:+919414308289" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold">
+                    <i class="fas fa-phone-alt me-2"></i> Call: +91 9414308289
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+    <footer class="clinic-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <div class="brand-icon" style="width: 38px; height: 38px; font-size: 18px;">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h4 class="h5 text-white mb-0">Dr. Kalpesh Purbiya</h4>
+                    </div>
+                    <p class="small text-white-50 mb-3">
+                        Spine & Sports Injuries Physiotherapy Center, Udaipur. Delivering high-precision, non-surgical pain relief, chiropractic care, and rehabilitation since 2007.
+                    </p>
+                    <div class="d-flex gap-2">
+                        <a href="https://wa.me/919414308289" target="_blank" class="btn btn-sm btn-outline-light rounded-circle" style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/kalpeshpurbiya?igsh=MWJkdjM0YjJwdHlsYw==" target="_blank" class="btn btn-sm btn-outline-light rounded-circle" style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1CfwQZfoqc/?mibextid=wwXIfr" target="_blank" class="btn btn-sm btn-outline-light rounded-circle" style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center;"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right small text-info"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right small text-info"></i> About Doctor</a></li>
+                        <li><a href="service.html"><i class="fas fa-chevron-right small text-info"></i> All Services</a></li>
+                        <li><a href="gallery.html"><i class="fas fa-chevron-right small text-info"></i> Photo Gallery</a></li>
+                        <li><a href="appointment.html"><i class="fas fa-chevron-right small text-info"></i> Book Appointment</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right small text-info"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Key Treatments</h5>
+                    <ul class="footer-links">
+                        <li><a href="service.html"><i class="fas fa-chevron-right small text-info"></i> Back Pain & Slip Disc</a></li>
+                        <li><a href="service.html"><i class="fas fa-chevron-right small text-info"></i> Cervical Radiculopathy</a></li>
+                        <li><a href="service.html"><i class="fas fa-chevron-right small text-info"></i> Chiropractic Adjustment</a></li>
+                        <li><a href="service.html"><i class="fas fa-chevron-right small text-info"></i> Sports Injury Recovery</a></li>
+                        <li><a href="service.html"><i class="fas fa-chevron-right small text-info"></i> Cupping & Massage Therapy</a></li>
+                        <li><a href="service.html"><i class="fas fa-chevron-right small text-info"></i> Stroke & Neuro Rehab</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contact Clinic</h5>
+                    <p class="small text-white-50 mb-2">
+                        <i class="fas fa-map-marker-alt text-info me-2"></i> Navratan Flora, near Vaikuntha Sports Academy, Udaipur, Rajasthan
+                    </p>
+                    <p class="small text-white-50 mb-2">
+                        <i class="fas fa-phone-alt text-info me-2"></i> <a href="tel:+919414308289" class="text-white">+91 9414308289</a> / <a href="tel:+918005758037" class="text-white">8005758037</a>
+                    </p>
+                    <p class="small text-white-50 mb-0">
+                        <i class="fas fa-envelope text-info me-2"></i> <a href="mailto:kalpesh_purbiya2007@yahoo.co.in" class="text-white">kalpesh_purbiya2007@yahoo.co.in</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-md-start mb-2 mb-md-0">
+                        &copy; 2026 <b>Dr. Kalpesh Purbiya</b>. Spine & Sports Injuries Physiotherapy Center. All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        Designed & Developed by <a href="https://wa.me/916375247046" target="_blank" class="text-info fw-bold">Bhavya Purbia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- ==========================================================================
+         FLOATING GLASS PILL BOTTOM NAVIGATION BAR (User Reference Glass Design)
+         Pages: Home, About, Services, Book Appointment, Gallery, Contact
+    ========================================================================== -->
+    <!-- ==========================================================================
+         PREMIUM GLASSMORPHISM FLOATING BOTTOM NAVIGATION (Exact 5 Options)
+         1. Home | 2. About | 3. Book Appointment (Center Spotlight) | 4. Gallery | 5. Treatments
+    ========================================================================== -->
+    <nav class="floating-glass-dock d-lg-none" aria-label="Mobile Bottom Navigation">
+        <div class="glass-dock-container">
+            <!-- 1. HOME -->
+            <a href="index.html" class="glass-nav-item" data-nav="home" title="Home" aria-label="Home">
+                <span class="nav-icon-pod">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-label-micro">Home</span>
+                </span>
+            </a>
+
+            <!-- 2. ABOUT -->
+            <a href="about.html" class="glass-nav-item" data-nav="about" title="About Doctor" aria-label="About Doctor">
+                <span class="nav-icon-pod">
+                    <i class="fas fa-user-md"></i>
+                    <span class="nav-label-micro">About</span>
+                </span>
+            </a>
+
+            <!-- 3. BOOK APPOINTMENT (Center Spotlight CTA) -->
+            <a href="appointment.html" class="glass-nav-item nav-center-appointment" data-nav="appointment" title="Book Appointment" aria-label="Book Appointment">
+                <span class="nav-center-pod">
+                    <i class="far fa-calendar-check"></i>
+                    <span class="nav-center-text">Book Appointment</span>
+                    <span class="nav-center-glow"></span>
+                </span>
+            </a>
+
+            <!-- 4. GALLERY -->
+            <a href="gallery.html" class="glass-nav-item" data-nav="gallery" title="Gallery" aria-label="Gallery">
+                <span class="nav-icon-pod">
+                    <i class="fas fa-images"></i>
+                    <span class="nav-label-micro">Gallery</span>
+                </span>
+            </a>
+
+            <!-- 5. TREATMENTS -->
+            <a href="service.html" class="glass-nav-item" data-nav="services" title="Treatments" aria-label="Treatments">
+                <span class="nav-icon-pod">
+                    <i class="fas fa-heartbeat"></i>
+                    <span class="nav-label-micro">Treatments</span>
+                </span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Floating WhatsApp CTA Button -->
+    <a href="https://wa.me/919414308289?text=Hello%20Dr.%20Kalpesh,%20I%20would%20like%20to%20book%20a%20physiotherapy%20consultation" 
+       class="whatsapp-floating-btn" 
+       target="_blank" 
+       aria-label="Chat on WhatsApp"
+       title="Chat with Dr. Kalpesh Purbiya">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Core Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Filter script -->
+    <script>
+        $(document).ready(function () {
+            $('.filter-btn').on('click', function () {
+                $('.filter-btn').removeClass('active');
+                $(this).addClass('active');
+
+                var filter = $(this).attr('data-filter');
+                if (filter === 'all') {
+                    $('.gallery-card').fadeIn(200);
+                } else {
+                    $('.gallery-card').hide();
+                    $('.gallery-card[data-category="' + filter + '"]').fadeIn(200);
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
