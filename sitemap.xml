@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- 1. Homepage -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/team-1.jpg</image:loc>
+            <image:title>Dr. Kalpesh Purbiya - Chief Spine Specialist &amp; Chiropractor Udaipur</image:title>
+            <image:caption>Founder &amp; Chief Specialist at Spine and Sports Injuries Physiotherapy Center, Udaipur</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/carousel-1.jpg</image:loc>
+            <image:title>Advanced Physiotherapy &amp; Spine Rehabilitation Udaipur</image:title>
+            <image:caption>Modern pain relief and spine treatment facilities</image:caption>
+        </image:image>
+    </url>
+
+    <!-- 2. About Doctor -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/about.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/team-1.jpg</image:loc>
+            <image:title>Dr. Kalpesh Purbiya - Qualifications &amp; 19+ Years Clinical Experience</image:title>
+            <image:caption>State Award Winner 2015, MIAP, COMP, MMTFI, MPT Neuro</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/about-1.jpg</image:loc>
+            <image:title>About Dr. Kalpesh Purbiya Clinic</image:title>
+        </image:image>
+    </url>
+
+    <!-- 3. Specialized Treatments & Services -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/service.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/service-3.jpg</image:loc>
+            <image:title>Chiropractic Spinal Adjustment &amp; Sports Injury Rehabilitation</image:title>
+            <image:caption>Evidence-based physiotherapy and pain relief treatments in Udaipur</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/service-1.jpg</image:loc>
+            <image:title>Spine Decompression &amp; Sciatica Treatment</image:title>
+        </image:image>
+    </url>
+
+    <!-- 4. Clinical Team -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/team.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/team-1.jpg</image:loc>
+            <image:title>Dr. Kalpesh Purbiya - Founder &amp; Chief Specialist</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/team-2.jpeg</image:loc>
+            <image:title>Dr. Rakshit Purbia - Sports Rehab Consultant</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/team-3.jpeg</image:loc>
+            <image:title>Dr. Geeta Patel - Manual &amp; Cupping Therapist</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/team-4.jpeg</image:loc>
+            <image:title>Dr. Suhani Jain - Neuro-Rehabilitation Specialist</image:title>
+        </image:image>
+    </url>
+
+    <!-- 5. Book Appointment -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/appointment.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- 6. Clinic Gallery & Patient Success -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/gallery.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- 7. Contact Us & Clinic Location -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/contact.html</loc>
+        <lastmod>2026-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>

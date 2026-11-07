@@ -1,0 +1,6 @@
+# robots.txt for https://drkalpeshpurbiya.in/
+User-agent: *
+Allow: /
+
+# XML Sitemap Location
+Sitemap: https://drkalpeshpurbiya.in/sitemap.xml
