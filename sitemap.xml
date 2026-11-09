@@ -57,6 +57,19 @@
         </image:image>
     </url>
 
+    <!-- 3a. Treatment Guide: Back Pain Physiotherapy -->
+    <url>
+        <loc>https://drkalpeshpurbiya.in/back-pain-physiotherapy.html</loc>
+        <lastmod>2026-11-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://drkalpeshpurbiya.in/img/service-3.jpg</image:loc>
+            <image:title>Back Pain Physiotherapy &amp; Slip Disc Rehabilitation Udaipur</image:title>
+            <image:caption>Evidence-based non-surgical spine care by Dr. Kalpesh Purbiya</image:caption>
+        </image:image>
+    </url>
+
     <!-- 4. Clinical Team -->
     <url>
         <loc>https://drkalpeshpurbiya.in/team.html</loc>
