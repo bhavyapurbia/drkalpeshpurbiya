@@ -8,7 +8,7 @@
     <!-- 1. Homepage -->
     <url>
         <loc>https://drkalpeshpurbiya.in/</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
@@ -26,7 +26,7 @@
     <!-- 2. About Doctor -->
     <url>
         <loc>https://drkalpeshpurbiya.in/about.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
         <image:image>
@@ -43,7 +43,7 @@
     <!-- 3. Specialized Treatments & Services -->
     <url>
         <loc>https://drkalpeshpurbiya.in/service.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
         <image:image>
@@ -60,7 +60,7 @@
     <!-- 4. Clinical Team -->
     <url>
         <loc>https://drkalpeshpurbiya.in/team.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
         <image:image>
@@ -84,7 +84,7 @@
     <!-- 5. Book Appointment -->
     <url>
         <loc>https://drkalpeshpurbiya.in/appointment.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
@@ -92,7 +92,7 @@
     <!-- 6. Clinic Gallery & Patient Success -->
     <url>
         <loc>https://drkalpeshpurbiya.in/gallery.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -100,7 +100,7 @@
     <!-- 7. Contact Us & Clinic Location -->
     <url>
         <loc>https://drkalpeshpurbiya.in/contact.html</loc>
-        <lastmod>2026-11-08</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
